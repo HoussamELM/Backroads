@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} alt='logo'/>
+          <img src={logo} alt='logo' className='nav-logo'/>
           <button type="button" className="nav-toggle" id="nav-toggle" aria-label="logo">
             <i className="fas fa-bars"></i>
           </button>
